@@ -7,8 +7,11 @@
   border: 2px solid orange;
 }
 
+.container{
+  display: flex;
+}
 @media (min-width:600px, /*max-width: 800px*/){
-  .square{
+  .container{
     flex-direction: column }
 }
 
