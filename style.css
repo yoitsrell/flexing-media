@@ -6,3 +6,17 @@
   height: 80px;
   border: 2px solid orange;
 }
+
+@media (min-width:600px, /*max-width: 800px*/){
+  .square{
+    flex-direction: column }
+}
+
+@media (min-width: 800px, /*max-width: 1000px*/){
+  .square{
+    flex-direction: row;}
+}
+
+@media (min-width: 1000px){
+
+}
